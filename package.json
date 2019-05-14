@@ -1,0 +1,13 @@
+{
+  "name": "lambda-email",
+  "version": "1.0.0",
+  "description": "Lambda function for sending emails",
+  "main": "index.js",
+  "author": "Systango",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.437.0",
+    "jimp": "^0.6.4",
+    "mime-types": "^2.1.24"
+  }
+}

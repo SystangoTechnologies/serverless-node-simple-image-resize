@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "a2cc58ac-7857-4521-ab4d-adc54b14e56d",
+		"name": "lambda-image-resize",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "lambda-image-resizer",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "x-api-key",
+						"value": "<your api key>",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "<your api url>?imageUrl=https://s3.amazonaws.com/towlot-portal-images/1551975541895.JPG&height=200",
+					"host": [
+						"<your api url>"
+					],
+					"query": [
+						{
+							"key": "imageUrl",
+							"value": "https://s3.amazonaws.com/towlot-portal-images/1551975541895.JPG"
+						},
+						{
+							"key": "height",
+							"value": "200"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
